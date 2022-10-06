@@ -1,0 +1,744 @@
+@import url(reset.css);
+
+html, body {
+    height: 100%;
+    line-height: 1;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    color: #616161;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+[class*="__container"]{
+    max-width: 1184px;
+    padding: 0px 89px;
+} 
+
+.header {
+    padding-left: 120px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    height: 79px;
+    padding-top: 18px;
+}
+.header__container {
+    display: flex;
+    max-height: 79px;
+    align-items: center;
+    width: 1184px;
+}
+.logo {
+}
+.logo__img {
+}
+
+
+/*nav*/
+.header__menu {
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-left: 115px;
+    padding-right: 0 auto;
+    white-space: nowrap;
+}
+.menu {
+    display: flex;
+    justify-content: flex-end;
+
+}
+.menu__list {
+    margin-right: 0 auto;
+    display: flex;
+}
+.menu__item {
+    margin-right: 35px;
+}
+
+.menu__link {
+    font-size: 13px;
+    color: black;
+    transition: all .5s ease 0s;
+}
+
+.menu__link:hover{
+    color: #E6B939;
+    font-size: 15px;
+}
+/*button*/
+.header__button {
+    min-width: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.button {
+    display: flex,
+    justify-content: center, 
+    align-items: center
+    text-align: center
+    height: 45px;
+    padding: 8px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 1px;
+    color: #FCFDFE;
+    transition: all .4s ease 0s;
+    background: #575445;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #181817;
+}
+
+.button1 {
+    
+}
+.button2 {
+}
+
+/*main*/
+main{
+    flex: 1 1 auto;
+}
+.background{
+    position: absolute;
+    height: 640px;
+    left: 0%;
+    right: 0%;
+    top: 79px;
+}
+
+.skala {
+    background-image: url(/hi/img/skalolaz.jpg) no-repeat;
+}
+
+.main__container{
+    display: flex;
+    margin-top: 79px;
+    width: 1184px;
+    height: 640px;
+}
+
+.main__all-text {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    height: 193px;
+    left: 8.33%;
+    right: 50%;
+    top: 297px;
+}
+.main__yellow {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E6B939;
+}
+.main__title {
+
+}
+.title-gear {
+    color: white;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+.main__text {
+    color: #CACCD1;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
+}
+.text-lorem {
+}
+
+/*Main Two-------------------------*/
+.people {
+}
+.about__container {
+    background-color: rgb(87, 84, 69, 0.03);
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 576px;
+    left: 9.44%;
+    right: 9.44%;
+    top: 710px;
+}
+.main__image {
+}
+
+
+.peiple-image {
+    height: 576px;
+    width: 576px;
+    left: 0%;
+}
+
+.abouts__all-text {
+    position: absolute;
+    width: 400px;
+    height: 227px;
+    right: 4%;
+}
+.main__yellow {
+}
+.who {
+}
+.main__title {
+}
+.title-abouts {
+    color: #575445;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+.main__text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #575445;
+}
+.text-weare {
+    padding: 20px 0px;
+}
+.silka {
+    padding: 20px 0px;
+    color:#282828;
+    font-size: 16px;
+    transition: all .5s ease 0s;
+}
+.silka:hover {
+    font-size: 18px;
+    color: #000000;
+}
+
+/*Setting container*/
+.setting__container {
+    position: absolute;
+    height: 900px;
+    Width: 1184px;
+    left: 120px;
+    right: 136px;
+    top: 1416px;
+}
+.main__yellow {
+    font-family: 'Poppins' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E6B939;
+    text-align: center;
+}
+
+.text {
+    line-height: 43.2px;
+    text-align: center;
+}
+
+.title-setting {
+    color: #575445;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    text-align: center;
+}
+.title {
+}
+.main__text {
+}
+.text-prosto {
+    position: relative;
+    width: 538px;
+    height: 58px;
+    left: 232px;
+}
+.boxes {
+
+}
+.boxes__box {
+}
+.logotype {
+    position: relative;
+    align-items: center;
+}
+.logo1 {
+    
+}
+/*boxes--------------------*/
+.box__text {
+    width: 287px;
+    height: 59px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #575445;
+}
+.box__text-title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #575445;
+}
+
+
+.box1 {
+    position: absolute;
+    height: 275px;
+    left: 6%;
+    right: 66.72%;
+    top: 249px;
+}
+
+.box2 {
+    position: absolute;
+    height: 275px;
+    left: 37.36%;
+    right: 33.36%;
+    top: 249px;
+}
+.box3 {
+    position: absolute;
+    height: 275px;
+    left: 66.72%;
+    right: 6%;
+    top: 249px;
+}
+.box4 {
+    position: absolute;
+    height: 275px;
+    left: 6%;
+    right: 66.72%;
+    top: 525px;
+}
+.box5 {
+    position: absolute;
+    height: 275px;
+    left: 37.36%;
+    right: 33.36%;
+    top: 525px;
+}
+.box6 {
+    position: absolute;
+    height: 275px;
+    left: 66.72%;
+    right: 6%;
+    top: 525px;
+}
+
+.logo1{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 115px;
+    top: -70px;
+}
+
+.logo2{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 115px;
+    top: -70px;
+}
+
+.logo3{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 115px;
+    top: -70px;
+}
+
+.logo4{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 115px;
+    top: -70px;
+}
+
+.logo5{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 115px;
+    top: -70px;
+}
+
+.logo6{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 115px;
+    top: -70px;
+}
+
+/*decoration*/
+.decoration{
+    top: 1494px;
+}
+
+.decor1{
+    position: absolute;
+    left: 0%;
+    right: 61.49%;
+    top: 1600px;
+    bottom: 0%;
+}
+.decor2{
+    position: absolute;
+    left: 67.33%;
+    right: 0%;
+    top: 1494px;
+    bottom: 52.96%;
+}
+
+/*CONTAINER WHAT---------------------*/
+.what {
+}
+.what__container {
+    position: absolute;
+    height: 1152.66px;
+    left: 120px;
+    right: 120px;
+    top: 2316px;
+}
+.what__text {
+    position: absolute;
+    height: 129px;
+    left: 25%;
+    right: 25%;
+    top: 0px;
+}
+.text__yellow {
+}
+.main__yellow {
+}
+.text__title {
+    font-family: 'Roboto';
+}
+.title-setting {
+}
+.text__morby {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #575445;
+}
+.shotobox {
+}
+.photobox__pbox {
+}
+.boxp1 {
+    position: absolute;
+    left: 0%;
+    right: 67.55%;
+    top: 149px;
+}
+.photo {
+    border-radius: 10px;
+    height: 450px;
+    Width: 350px;
+}
+.pbox1-title {
+    position: absolute;
+    width: 166px;
+    height: 34px;
+    top: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #575445;
+    left: 95px;
+}
+.pbox1-text {
+    position: absolute;
+    width: 252px;
+    height: 45px;
+    left: 55px;
+    top: 82px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #575445;
+}
+.pbox1-button {
+    position: absolute;
+    width: 155px;
+    height: 21px;
+    left: 118px;
+    top: 137px;
+    font-size: 13px;
+    text-decoration: none;
+}
+.view{
+    color: #575445;
+    transition: all .5s ease 0s;
+}
+.view:hover{
+    color: #000 ;
+    font-size: 14px;
+}
+
+.boxp2 {
+    position: absolute;
+    left: 375px;
+    top: 149px;
+}
+.pbox2-title {
+    position: absolute;
+    width: 166px;
+    height: 34px;
+    top: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #575445;
+    left: 95px;
+}
+.pbox2-text {
+    position: absolute;
+    width: 252px;
+    height: 45px;
+    left: 55px;
+    top: 82px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #575445;
+}
+.pbox2-button {
+    position: absolute;
+    width: 155px;
+    height: 21px;
+    left: 125px;
+    top: 137px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.boxp3 {
+    position: absolute;
+    right: 0%;
+    top: 149px;
+}
+.pbox3-title {
+    position: absolute;
+    width: 212px;
+    height: 34px;
+    top: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #575445;
+    left: 75px;
+}
+.pbox3-text {
+    position: absolute;
+    width: 252px;
+    height: 45px;
+    left: 55px;
+    top: 82px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #575445;
+}
+.pbox3-button {
+    position: absolute;
+    width: 155px;
+    height: 21px;
+    left: 118px;
+    top: 137px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.boxp4 {
+    position: absolute;
+    left: 0%;
+    top: 638px;
+}
+.pbox4-title {
+    position: absolute;
+    width: 166px;
+    height: 34px;
+    top: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #575445;
+    left: 95px;
+}
+.pbox4-text {
+    position: absolute;
+    width: 252px;
+    height: 45px;
+    left: 55px;
+    top: 82px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #575445;
+}
+.pbox4-button {
+    position: absolute;
+    width: 155px;
+    height: 21px;
+    left: 123px;
+    top: 137px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.boxp5 {
+    position: absolute;
+    left: 375px;
+    top: 638px;
+}
+.pbox5-title {
+    position: absolute;
+    width: 166px;
+    height: 34px;
+    top: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #575445;
+    left: 95px;
+}
+.pbox5-text {
+    position: absolute;
+    width: 252px;
+    height: 45px;
+    left: 55px;
+    top: 82px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #575445;
+}
+.pbox5-button {
+    position: absolute;
+    width: 155px;
+    height: 21px;
+    left: 118px;
+    top: 137px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.boxp6 {
+    position: absolute;
+    right: 0%;
+    top: 638px;
+}
+.pbox6-title {
+    position: absolute;
+    width: 166px;
+    height: 34px;
+    top: 39px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    color: #575445;
+    left: 95px;
+}
+.pbox6-text {
+    position: absolute;
+    width: 252px;
+    height: 45px;
+    left: 55px;
+    top: 82px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #575445;
+}
+.pbox6-button {
+    position: absolute;
+    width: 155px;
+    height: 21px;
+    left: 130px;
+    top: 137px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.show-all{
+    position: absolute;
+    width: 177px;
+    height: 21px;
+    left: 475px;
+    top: 1125px;
+}
